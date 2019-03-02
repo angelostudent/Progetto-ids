@@ -23,7 +23,12 @@ export class AppComponent {
     {
       title: 'Register',
       url: '/register',
-      icon: 'register'
+      icon: 'document'
+    },
+    {
+      title: 'Profilo',
+      url: '/profilo',
+      icon: 'person'
     }
   ];
 

@@ -29,7 +29,12 @@ export class AppComponent {
       title: 'Profilo',
       url: '/profilo',
       icon: 'person'
-    }
+    },
+    {
+      title: 'Login',
+      url: '/login',
+      icon: 'key'
+    },
   ];
 
   constructor(

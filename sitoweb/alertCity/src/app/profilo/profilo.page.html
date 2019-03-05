@@ -1,25 +1,30 @@
 <ion-header>
   <ion-toolbar>
     
-    <ion-title>Profilo Utente</ion-title>
+
+
+    <ion-title>Profilo</ion-title>
   </ion-toolbar>
+
+
 </ion-header>
-<ion-content>
-  <ion-card-header>
-      <ion-card-subtitle>Bentornato</ion-card-subtitle><!-- +concatenazione-->
-  </ion-card-header>
-<ion-item>
-  <ion-label>Nome</ion-label><p>
-  <ion-input></ion-input></p>
-</ion-item>
-<ion-item>
-    <ion-label>Cognome</ion-label><p>
-  <ion-input></ion-input></p>
-</ion-item>
-  <ion-item>
-  <ion-label>Data di nascita</ion-label><br><p>
-    <ion-input></ion-input></p>
-  </ion-item>
+
+
+
+
 <ion-content padding>
+
+
+<div class="container">
+  
+  <form><font face="Georgia" size="4">
+    <br>
+<h4>Nome: {{nomeUtente}}</h4>
+<br>
+<h4>Cognome:{{cognomeUtente}}</h4><br>
+<h4>Data di nascita: {{dataUtente}}</h4><br>
+<h4>Indirizzo E-mail: {{email}} </h4>
+</font></form>
+</div>
 
 </ion-content>

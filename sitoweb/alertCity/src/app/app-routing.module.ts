@@ -15,12 +15,14 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
+
+ 
+
   { path: 'register', 
   loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'profilo', 
-  loadChildren: './profilo/profilo.module#ProfiloPageModule' },
-  { path: 'login', 
-  loadChildren: './login/login.module#LoginPageModule' }
+  loadChildren: './profilo/profilo.module#ProfiloPageModule' },  { path: 'supporto', loadChildren: './supporto/supporto.module#SupportoPageModule' }
+
 
 
 ];

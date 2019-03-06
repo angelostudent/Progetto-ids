@@ -21,6 +21,16 @@ export class AppComponent {
       icon: 'list'
     },
     {
+      title: 'Profilo',
+      url: '/Profilo',
+      icon: 'person'
+    },
+    {
+      title: 'Login',
+      url: '/login',
+      icon: 'key'
+    },
+    {
       title: 'Register',
       url: '/register',
       icon: 'register'

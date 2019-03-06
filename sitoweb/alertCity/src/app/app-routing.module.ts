@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'register', 
   loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'profilo', 
-  loadChildren: './profilo/profilo.module#ProfiloPageModule' },  { path: 'supporto', loadChildren: './supporto/supporto.module#SupportoPageModule' }
+  loadChildren: './profilo/profilo.module#ProfiloPageModule' },  { path: 'supporto', loadChildren: './supporto/supporto.module#SupportoPageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' }
 
 
 

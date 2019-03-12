@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SupportoPage implements OnInit {
 
-  constructor() { }
+
+  constructor() {
+   
+
+      }
 
   ngOnInit() {
   }

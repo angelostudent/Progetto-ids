@@ -22,7 +22,7 @@ export class AppComponent {
     },
     {
       title: 'Profilo',
-      url: '/Profilo',
+      url: '/profilo',
       icon: 'person'
     },
     {
@@ -31,10 +31,16 @@ export class AppComponent {
       icon: 'key'
     },
     {
-      title: 'Register',
+      title: 'Registrazione',
       url: '/register',
       icon: 'register'
-    }
+    },
+    {
+      title: 'Supporto',
+      url: '/supporto',
+      icon: 'text'
+    } 
+    
   ];
 
   constructor(
